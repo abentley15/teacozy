@@ -7,6 +7,14 @@ html {
 	opacity: 0.9;
 }
 
+h2 {
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+}
+
 /* header styling */ 
 
 #header {
@@ -31,3 +39,68 @@ html {
 #header #list ul li {
 	padding: 10px;
 }
+
+/* mission styling */ 
+
+#body {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 1000px;
+}
+
+#mission {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 700px;
+	width: 1200px;
+	background-image: url(/Users/aaron/Documents/WebProjects/TeaCozy/resources/images/img-mission-background.jpg);
+}
+
+#missionstatement {
+	display: inline-block;
+	flex-wrap: wrap;
+	text-align: center;
+	width: 1200px;
+	background-color: black;
+}
+
+#teaofthemonth {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 1000px;
+}
+
+#teaofthemonthtitle {
+	width:1000px;
+}
+
+#tea1 {
+	display: flex;
+	flex-direction: column;
+	padding: 10px 10px;
+}
+#tea2 {
+	display: flex;
+	flex-direction: column;
+	padding: 10px 10px;
+}
+#tea3 {
+	display: flex;
+	flex-direction: column;
+	padding: 10px 10px;
+}
+#tea4 {
+	display: flex;
+	flex-direction: column;
+	padding: 10px 10px;
+}
+#tea5 {
+	display: flex;
+	flex-direction: column;
+	padding: 10px 10px;
+}
+
+/* locations styling */ 
