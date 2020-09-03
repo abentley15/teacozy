@@ -1,10 +1,11 @@
 
 html {
 	font-family: helvetica;
+	justify-content: center;
 	font-size: 22px;
 	color: seashell;
-	background-color: black;
 	opacity: 0.9;
+	background-color: black;
 }
 
 h2 {
@@ -12,6 +13,10 @@ h2 {
 }
 
 h4 {
+	text-align: center;
+}
+
+p {
 	text-align: center;
 }
 
@@ -23,6 +28,11 @@ h4 {
 	justify-content: space-between;
 	align-items: center;
 	border-bottom: 1px solid seashell;
+	background-color: black;
+	z-index: 10;
+	width: 100%;
+	position: fixed;
+	margin-top: -8px;
 }
 
 #header img {
@@ -34,6 +44,7 @@ h4 {
 	display: inline-flex;
 	list-style-type: none;
 	text-decoration: underline;
+	padding: 10px;
 }
 
 #header #list ul li {
@@ -42,11 +53,10 @@ h4 {
 
 /* mission styling */ 
 
-#body {
+#main {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	width: 1000px;
+	flex-direction: column;
+	justify-content: space-around;
 }
 
 #mission {
@@ -56,6 +66,7 @@ h4 {
 	height: 700px;
 	width: 1200px;
 	background-image: url(/Users/aaron/Documents/WebProjects/TeaCozy/resources/images/img-mission-background.jpg);
+	margin: 0 auto;
 }
 
 #missionstatement {
@@ -71,6 +82,7 @@ h4 {
 	flex-wrap: wrap;
 	justify-content: center;
 	width: 1000px;
+	margin: 0 auto;
 }
 
 #teaofthemonthtitle {
@@ -104,3 +116,42 @@ h4 {
 }
 
 /* locations styling */ 
+
+#locations {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-evenly;
+	background-image: url(/Users/aaron/Documents/WebProjects/TeaCozy/resources/images/img-locations-background.jpg);
+	height: 500px;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#locationstitle {
+	display: inline-block;
+	width: 1199px;
+}
+
+#locations #location1 {
+	width: 300px;
+	height: 300px;
+	background-color: black;
+}
+
+#locations #location2 {
+	width: 300px;
+	height: 300px;
+	background-color: black;
+}
+
+#locations #location3 {
+	width: 300px;
+	height: 300px;
+	background-color: black;
+}
+
+#footer p{
+	text-align: left;
+	padding-left: 10px;
+}
